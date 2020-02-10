@@ -28,12 +28,19 @@ textarea{
 .time-block{
   text-align: center;
   border-radius: 15px;
-}
+  padding: 40px 0px;
+ }
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+  height: 100px;
+  /* border-top: 1px solid white; */
+}
+
+.col-10 {
+  border-top: 1px solid black;
+  /* border-bottom: 1px solid black; */
+  padding: 0;
 }
 
 .hour {
